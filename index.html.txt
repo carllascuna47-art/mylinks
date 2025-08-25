@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Links</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    .container {
+      max-width: 400px;
+      margin: auto;
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 25px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+    a {
+      display: block;
+      background: #1f1c2c;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 18px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+      transition: all 0.3s ease-in-out;
+    }
+    a:hover {
+      background: #ff0080;
+      box-shadow: 0 8px 25px rgba(255,0,128,0.8);
+      transform: translateY(-5px) scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Replace with your own profile picture -->
+    <img src="https://via.placeholder.com/120" alt="Profile" class="profile-img">
+
+    <!-- Replace with your name -->
+    <h1>Your Name</h1>
+    <p>✨ Welcome to my 3D Link Hub ✨</p>
+
+    <!-- Replace links with yours -->
+    <a href="https://youtube.com/">🎥 YouTube</a>
+    <a href="https://twitter.com/">🐦 Twitter</a>
+    <a href="https://instagram.com/">📸 Instagram</a>
+    <a href="https://t.me/">📱 Telegram</a>
+    <a href="https://github.com/">💻 GitHub</a>
+  </div>
+</body>
+</html>
