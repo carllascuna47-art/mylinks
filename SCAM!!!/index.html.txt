@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QueenChescaX</title>
+  <style>
+    /* Background with animated sports car GIF */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      padding: 40px;
+      background: url("https://i.gifer.com/76YS.gif") no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080;
+    }
+    a.button {
+      display: inline-block;
+      background: linear-gradient(45deg, #ff0080, #ff6600);
+      color: white;
+      text-decoration: none;
+      padding: 15px 40px;
+      border-radius: 12px;
+      font-size: 20px;
+      font-weight: bold;
+      box-shadow: 0 5px 20px rgba(255, 0, 128, 0.7);
+      transition: all 0.3s ease-in-out;
+    }
+    a.button:hover {
+      transform: scale(1.1) translateY(-5px);
+      box-shadow: 0 8px 30px rgba(255, 102, 0, 0.9);
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>👑 QueenChescaX 👑</h1>
+    <!-- Editable button link here -->
+    <a href="https://example.com" target="_blank" class="button">🚀 Tap to Join</a>
+  </div>
+</body>
+</html>
