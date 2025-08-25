@@ -3,70 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Links</title>
+  <title>QueenChescaX</title>
   <style>
+    /* Background with animated sports car GIF */
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
       color: white;
       text-align: center;
       padding: 40px;
+      background: url("https://i.gifer.com/76YS.gif") no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-    .container {
-      max-width: 400px;
-      margin: auto;
-    }
-    .profile-img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      border: 3px solid white;
-      margin-bottom: 20px;
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
     }
     h1 {
-      margin-bottom: 10px;
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080;
     }
-    p {
-      margin-bottom: 25px;
-      font-size: 14px;
-      opacity: 0.8;
-    }
-    a {
-      display: block;
-      background: #1f1c2c;
+    a.button {
+      display: inline-block;
+      background: linear-gradient(45deg, #ff0080, #ff6600);
       color: white;
       text-decoration: none;
-      padding: 15px;
-      margin: 15px 0;
+      padding: 15px 40px;
       border-radius: 12px;
+      font-size: 20px;
       font-weight: bold;
-      font-size: 18px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+      box-shadow: 0 5px 20px rgba(255, 0, 128, 0.7);
       transition: all 0.3s ease-in-out;
     }
-    a:hover {
-      background: #ff0080;
-      box-shadow: 0 8px 25px rgba(255,0,128,0.8);
-      transform: translateY(-5px) scale(1.05);
+    a.button:hover {
+      transform: scale(1.1) translateY(-5px);
+      box-shadow: 0 8px 30px rgba(255, 102, 0, 0.9);
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <!-- Replace with your own profile picture -->
-    <img src="https://via.placeholder.com/120" alt="Profile" class="profile-img">
-
-    <!-- Replace with your name -->
-    <h1>Your Name</h1>
-    <p>✨ Welcome to my 3D Link Hub ✨</p>
-
-    <!-- Replace links with yours -->
-    <a href="https://youtube.com/">🎥 YouTube</a>
-    <a href="https://twitter.com/">🐦 Twitter</a>
-    <a href="https://instagram.com/">📸 Instagram</a>
-    <a href="https://t.me/">📱 Telegram</a>
-    <a href="https://github.com/">💻 GitHub</a>
+  <div class="overlay">
+    <h1>👑 QueenChescaX 👑</h1>
+    <!-- Editable button link here -->
+    <a href="https://www.robiox.com.am/games/126884695634066/Grow-a-Garden?privateServerLinkCode=38523892396716596699057436379262" target="_blank" class="button">🚀 Tap to Join</a>
   </div>
 </body>
 </html>
